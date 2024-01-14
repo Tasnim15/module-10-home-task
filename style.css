@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,800&family=Poppins:wght@500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    margin: 70px 100px;
+}
+nav{
+    display: flex;
+    justify-content:space-between ;
+}
+.influencer-title{
+    color: #3A3A3A;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 700
+}
+nav ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding-right: 30px;
+    color: #3A3A3A;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+}
+/* start container */
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.start-container{
+    margin: 125px 113px 160px 0px;
+}
+.start-container-head{
+    color: #3A3A3A;
+font-family: Poppins;
+font-size: 52px;
+font-weight: 700;
+}
+.start-container-para{
+    color: #3A3A3A;
+font-size: 16px;
+font-weight: 600;
+}
+.start-container-btn{
+    border-radius: 41px;
+background: #E02C6D;
+color: #FFF;
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+}
+.camera-container{
+    border: 1px solid rgb(221, 219, 219);
+    border-radius: 50%;
+    padding: 10px;
+}
+/* icon section */
+.header-icon-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+/* responsive */
+@media screen and (max-width:576px) {
+    
+}
